@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://is4-ssl.mzstatic.com/image/thumb/Purple3/v4/3e/6d/55/3e6d55be-ec22-105a-c7c0-4059aec115a7/source/512x512bb.jpg" type="image/x-icon" /> 
+    <link rel="stylesheet" href="style/style.css">
     <title>BMI計算機</title>
 </head>
 <body>
     <header>
-       <form action="/action.php">
-           <label for="cm">身高 cm</label> <br>
-           <input type="text" name="height" placeholder="請輸入身高"> <br>
-           <label for="cm">體重 kg</label><br>
-           <input type="text" name="weight" placeholder="請輸入體重"> <br>
-           <input type="submit" value="看結果">
+        <img class="logo" src="https://hexschool.github.io/JavaScript_HomeWork/assets/BMICLogo.png" alt="logo">
+       <form action="/action.php" class="input">
+           <label for="cm">身高 cm</label> 
+           <input type="text" name="height" placeholder="請輸入身高"> 
+           <label for="cm">體重 kg</label>
+           <input type="text" name="weight" placeholder="請輸入體重"> 
        </form>
+            <button class="btn">看結果</button>
     </header>
     <article>
 
@@ -27,6 +29,6 @@
 </html>
 
 
-<img src="https://hexschool.github.io/JavaScript_HomeWork/assets/BMICLogo.png" alt="">
+
 
 <!-- 參考https://recafox.github.io/2020/02/03/2020-02-03/ -->

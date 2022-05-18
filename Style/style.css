@@ -1,0 +1,29 @@
+body{
+    margin:0 auto;
+    width: 1024px;
+    text-align:center;
+}
+header{
+    background-color: #424242;
+    padding: 73px 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.logo{
+    filter: invert(93%) sepia(12%) saturate(2464%) hue-rotate(326deg) brightness(104%) contrast(102%);
+}
+.input{
+    text-align:left;
+     display: flex;
+    flex-direction:column;
+    color: #FFD366;
+}
+.btn{
+    background-color:#DEA821;
+    padding: 44px 24px;
+    border-radius:50%;
+    border:none;
+    font-size: 24px;
+    color:#424242;
+}
