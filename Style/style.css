@@ -56,7 +56,7 @@ header{
     align-items: center;
     justify-content:space-evenly;
 }
-.logo{
+.header_logo{
     width:117px;
 }
 .inputInfo{
@@ -88,3 +88,18 @@ header{
     color:#424242;
     max-width: 100%;
 }
+.record{
+    color: #424242 ;
+    font-size: 24px;
+    padding:36px 0;
+}
+.content{
+    padding-bottom: 500px;
+}
+
+footer{
+    background: #FFD366;
+    padding:16px 0;
+    text-align: center;
+}
+
