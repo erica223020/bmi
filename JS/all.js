@@ -1,3 +1,7 @@
+
+
+
+
 function calculateBmi(height,weight){
     let bmi = weight/Math.pow(height/100,2); //Math.pow 平方
     if(bmi<18.5){
