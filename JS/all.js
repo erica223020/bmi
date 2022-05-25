@@ -71,9 +71,21 @@ function calculateBmi(e){
     localStorage.setItem("BMIlist", JSON.stringify(data));
 }
 
-//防止輸入區空白
+//防止輸入區非數字
 btn.addEventListener('click',checkNum);
 
 function checkNum(e){
-    if(height.value == " " || weight.value == "" ||height.value !==isNaN || weight.value !== "")
+    if(isNaN(height.value) == true || isNaN(weight.value) == true){
+        alert("請輸入數字");
+    }
+}
+
+//生成一個列表
+function updateList(data){
+    str = "";
+
+//處理data的元素
+    for(let i=0; i<data.length; i++){
+        let text = " ";
+    }
 }

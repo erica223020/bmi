@@ -96,6 +96,9 @@ header{
 .content{
     padding-bottom: 500px;
 }
+.list{
+    display: block;
+}
 
 footer{
     background: #FFD366;
