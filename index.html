@@ -13,9 +13,10 @@
         <img class="header_logo" src="https://raw.githubusercontent.com/erica223020/bmi/main/img/BMI.png" alt="header_logo">
        <form action="/action.php" class="inputInfo">
            <label for="cm">身高 cm</label> 
-           <input type="text" name="height" class="height" placeholder="請輸入身高"> 
+           <!-- 禁止輸入空白：onkeyup="this.value=this.value.replace(/\s+/g,'')" -->
+           <input type="text" name="height" class="height" placeholder="請輸入身高" onkeyup="this.value=this.value.replace(/\s+/g,'')"> 
            <label for="cm">體重 kg</label>
-           <input type="text" name="weight" class="weight"placeholder="請輸入體重"> 
+           <input type="text" name="weight" class="weight"placeholder="請輸入體重" onkeyup="this.value=this.value.replace(/\s+/g,'')"> 
        </form>
             <button class="btn">看結果</button>
     </header>
